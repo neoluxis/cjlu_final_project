@@ -1,0 +1,5 @@
+PySide6
+onnxruntime
+opencv-python-headless
+numpy
+
