@@ -7,14 +7,14 @@ from dataclasses import dataclass
 
 SWRD_CLASSES = (
     'background',
-    'air-hole12(hollow-bead)-142',
-    'air-hole7-028',
-    'broken-arc2-064',
-    'broken-arc2-156',
-    'air-hole4(hollow-bead)-105',
-    'broken-arc3(air-hole)-282',
-    'crack043',
-    'air-hole10-026',
+    'air-hole',
+    'bite-edge',
+    'broken-arc',
+    'crack',
+    'hollow-bead',
+    'overlap',
+    'slag-inclusion',
+    'unfused',
 )
 
 SWRD_PALETTE = (
@@ -45,4 +45,3 @@ class TimingInfo:
         if total <= 0:
             return 0.0
         return 1000.0 / total
-
